@@ -1,11 +1,11 @@
 const heros=["sanny","sudhir","karn"]
 const dc=["superman","flash","batman"]
-//heros.push(dc)
-// console.log(heros);
-// console.log(heros[3][1]);
+heros.push(dc)
+ console.log(heros);
+console.log(heros[3][1]);
 
-// const allHeros=heros.concat(dc)
-// console.log(allHeros);
+const allHeros=heros.concat(dc)
+ console.log(allHeros);
 
 const all_new_heros=[...heros,...dc]
 console.log(all_new_heros);
